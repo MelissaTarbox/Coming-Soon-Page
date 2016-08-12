@@ -1,0 +1,117 @@
+/*
+ Theme Name: skillcrushstarter Child
+ Theme URI:    http://example.com/skillcrushstarter-child/
+ Description:  Skillcrush Starter Child Theme
+ Author:       Melissa Tarbox
+ Author URI:   http://example.com
+ Template:     skillcrushstarter
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../skillcrushstarter/style.css");
+
+body  {
+	border-top: #fff;
+}
+
+.home-page {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 70%;
+  height: 70%;
+  border: 1px dotted #bfbfbf;
+  margin-left: 9%;
+  padding: 4%;
+}
+
+.content h1 {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.content p.grey {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.content p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.content a {
+  display: inline-block;
+  float: center;
+  margin-left: 8%;
+  margin-top: 3%;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+  .home-page {
+    width: 90%;
+    height: 90%;
+  }
+
+  .content {
+    width: 80%;
+    height: 80%;
+    border: 1px dotted #bfbfbf;
+    margin-left: 18%;
+    padding: 4%;
+  }
+
+  .content p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .content img {
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 3%;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 960px) {
+
+  .home-page {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content {
+    width: 90%;
+    height: 90%;
+    border: 1px dotted #bfbfbf;
+    margin-left: 9%;
+    padding: 4%;
+  }
+
+  .content p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .content img {
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 3%;
+  }
+
+}
